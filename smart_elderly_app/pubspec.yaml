@@ -1,0 +1,44 @@
+name: smart_elderly_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  http: ^1.1.0
+  shared_preferences: ^2.2.1
+  flutter_secure_storage: ^9.0.0
+  flutter_local_notifications: ^19.2.1
+  flutter_launcher_icons: ^0.13.1
+  smooth_page_indicator: ^1.0.0
+  flutter_animate: ^4.1.1
+  liquid_progress_indicator: ^0.3.2
+  flutter_svg: ^2.0.7
+  shimmer: ^3.0.0
+  font_awesome_flutter: ^10.5.0
+  fl_chart: ^0.65.0
+  google_fonts: ^6.1.0
+  intl: ^0.18.0
+  syncfusion_flutter_gauges: ^29.2.7
+  gauge_indicator: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+dependency_overrides:
+  liquid_progress_indicator:
+    path: lib/third_party/liquid_progress_indicator
+
