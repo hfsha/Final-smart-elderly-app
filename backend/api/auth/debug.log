@@ -1,0 +1,28 @@
+Raw Input: 
+Decoded Data: 
+JSON Decode Error: Syntax error
+Name: N/A
+Email: N/A
+Password: N/A
+Raw Input: {"name":"Shahidatul Hidayah","email":"hfsha@gmail.com","password":"12345678"}
+Decoded Data: stdClass Object
+(
+    [name] => Shahidatul Hidayah
+    [email] => hfsha@gmail.com
+    [password] => 12345678
+)
+
+Name: Shahidatul Hidayah
+Email: hfsha@gmail.com
+Password: 12345678
+Raw Input: {"name":"Shahidatul Hidayah","email":"hfsha@gmail.com","password":"12345678"}
+Decoded Data: stdClass Object
+(
+    [name] => Shahidatul Hidayah
+    [email] => hfsha@gmail.com
+    [password] => 12345678
+)
+
+Name: Shahidatul Hidayah
+Email: hfsha@gmail.com
+Password: 12345678
