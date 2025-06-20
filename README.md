@@ -102,7 +102,7 @@ Power: 3.3V/5V DC
 
 ### 🔌 Wiring Configuration
 
-| Sensor | ESP32 Pin | Connected to Sensor Pin| 
+| Sensor | ESP32 Pin | Sensor Pin  
 |--------|-----------|--------------|
 | **Flame** | VCC | 5V | 
 | | GND | GND |
