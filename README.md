@@ -102,27 +102,27 @@ Power: 3.3V/5V DC
 
 ### 🔌 Wiring Configuration
 
-| Sensor | ESP32 Pin | Connected to | Sensor Pin |
-|--------|-----------|--------------|------------|
-| **Flame** | VCC | 5V | VCC |
-| | GND | GND | GND |
-| | DO | GPIO34 | DO |
-| **Vibration** | VCC | 3.3V | VCC |
-| | GND | GND | GND |
-| | DO | GPIO33 | DO |
-| **PIR** | VCC | 3.3V | VCC |
-| | GND | GND | GND |
-| | OUTPUT | GPIO32 | OUTPUT |
-| **DHT11** | VCC | 3.3V | VCC |
-| | GND | GND | GND |
-| | Data | GPIO4 | Data |
-| **OLED** | VCC | 3.3V | VCC |
-| | GND | GND | GND |
-| | SDA | GPIO21 | SDA |
-| | SCK | GPIO22 | SCK |
-| **Relay** | VCC | 3.3V | VCC |
-| | GND | GND | GND |
-| | IN | GPIO25 | IN |
+| Sensor | ESP32 Pin | Connected to Sensor Pin| 
+|--------|-----------|--------------|
+| **Flame** | VCC | 5V | 
+| | GND | GND |
+| | DO | GPIO34 | 
+| **Vibration** | VCC | 3.3V | 
+| | GND | GND | 
+| | DO | GPIO33 | 
+| **PIR** | VCC | 3.3V | 
+| | GND | GND | 
+| | OUTPUT | GPIO32 | 
+| **DHT11** | VCC | 3.3V |
+| | GND | GND | 
+| | Data | GPIO4 | 
+| **OLED** | VCC | 3.3V | 
+| | GND | GND |
+| | SDA | GPIO21 | 
+| | SCK | GPIO22 |
+| **Relay** | VCC | 3.3V |
+| | GND | GND |
+| | IN | GPIO25 |
 
 ### 📐 Schematic Diagram
 **Interactive Circuit Design:** [View Full Schematic](https://app.cirkitdesigner.com/project/8e6cde29-f9d2-4ec3-9092-87674ec125f1)
